@@ -45,6 +45,7 @@ export default {
 			preprocess: [
 				preprocess({
 					sourceMap: !production,
+					scss: true
 					// typescript({ content }) {
 					// 	const { code, map } = transformSync(content, {
 					// 		loader: "ts",

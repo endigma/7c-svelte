@@ -1,8 +1,7 @@
 /// <reference types="svelte" />
 
 import App from './App.svelte';
-import "./css/pico.scss";
-import "./css/global.css"
+import "@picocss/pico"
 
 const app = new App({
 	target: document.body
